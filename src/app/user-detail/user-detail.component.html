@@ -1,0 +1,14 @@
+<div (click)="logout()" class="logout">Logout</div>
+<div class="content">
+    <div class="container">
+        <div class="row">
+                <div class="text-center card-box">
+                        <div class="thumb-lg member-thumb mx-auto"><img src="{{userDetails.avatar}}" class="rounded-circle img-thumbnail" alt="profile-image"></div>
+                        <div class=""> 
+                            <p class="text-muted">{{userDetails.first_name}} {{userDetails.last_name}} </p>
+                               <p class="email"> {{userDetails.email}}</p>
+                        </div>
+                </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div (click)="logout()" class="logout">Logout</div>
+<div class="content">
+    <div class="container">
+      
+        <div class="row">
+            <div *ngFor="let user of userLists" class="col-lg-3">
+                <div class="text-center card-box">
+                    <div class="member-card pt-2 pb-2">
+                        <div class="thumb-lg member-thumb mx-auto"><img src="{{user.avatar}}" class="rounded-circle img-thumbnail" alt="profile-image"></div>
+                        <div class="">
+                            
+                            <p class="text-muted">{{user.first_name}} {{user.last_name}} </p>
+                               <!-- <p class="email"> {{user.email}}</p> -->
+                        </div>
+                        <button type="button" (click)="navigateUserDetail(user)" class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">View Details</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container -->
+</div>

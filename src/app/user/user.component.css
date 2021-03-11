@@ -1,0 +1,63 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #fff;
+  flex-direction: column;
+  background: #f3f3f3;
+}
+
+.btn {
+  margin-top: 1.2rem;
+}
+
+.card-box {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.thumb-lg {
+  height: 88px;
+  width: 88px;
+}
+.img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+.text-pink {
+  color: #ff679b!important;
+}
+.btn-rounded {
+  border-radius: 2em;
+}
+.text-muted {
+  color: #98a6ad!important;
+}
+h4 {
+  line-height: 22px;
+  font-size: 18px;
+}
+.email{
+  color: gray;
+  font-size: 13px;
+}
+.logout{
+  text-align: right;
+  height: 30px;
+  margin-right: 2em;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+
